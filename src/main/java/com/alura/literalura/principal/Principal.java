@@ -71,8 +71,6 @@ public class Principal {
                 System.out.println("Número no válido");
                 teclado.next();
             }
-
-
         }
     }
 
@@ -114,7 +112,8 @@ public class Principal {
     private void mostrarAutoresVivosPorYear() {
         try {
             System.out.println("Escriba el año: ");
-            int year = teclado.nextInt();
+            String  yearSTR = teclado.nextLine();
+            int year = Integer.parseInt(yearSTR.replace(",",""));
             var autores = autorRepository.autoresVivosPorYear(year);
             if (autores.isEmpty()) {
                 System.out.println("No hay autores vivos durante ese año registrados");
