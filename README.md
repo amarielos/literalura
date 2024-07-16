@@ -2,7 +2,8 @@
 <p>Aplicación en consola para consulta de los libros y autores a través de la API <a href="https://gutendex.com">Gutendex
 </a></p>
 
-<h4 align="center">Proyecto Finalizado</h3>
+<img src="literalura_badge.png">
+<h4 align="center">Proyecto Finalizado</h4>
 
 <h3>📁 Acceso al proyecto</h3>
 <ol>
